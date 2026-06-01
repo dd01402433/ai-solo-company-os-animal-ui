@@ -231,7 +231,7 @@ export default function App() {
           open={modalOpen}
           title="AI Solo Company OS v4.0"
           onClose={() => setModalOpen(false)}
-          onOk={() => setModalOpen(false)}
+          onOk={() => { setModalOpen(false); window.location.href = 'https://ganru.gumroad.com/l/AIsolo-asset-os'; }}
           typewriter
           typeSpeed={60}
         >
