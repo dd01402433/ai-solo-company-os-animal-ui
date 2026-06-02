@@ -67,16 +67,16 @@ export default function App() {
             background: '#f0efe6', borderRadius: 12, maxWidth: 500, margin: '0 auto 32px'
           }}>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 12, marginBottom: 8 }}>
-              <span style={{ fontSize: 28, fontWeight: 800, color: '#794f27' }}>$10</span>
-              <span style={{ fontSize: 18, color: '#9f927d', textDecoration: 'line-through' }}>$49</span>
-              <span style={{ fontSize: 14, color: '#d97706', background: '#fef3c7', padding: '2px 8px', borderRadius: 6, fontWeight: 600 }}>79% OFF</span>
+              <span style={{ fontSize: 28, fontWeight: 800, color: '#794f27' }}>$50</span>
+              <span style={{ fontSize: 18, color: '#9f927d', textDecoration: 'line-through' }}>$199</span>
+              <span style={{ fontSize: 14, color: '#d97706', background: '#fef3c7', padding: '2px 8px', borderRadius: 6, fontWeight: 600 }}>75% OFF</span>
             </div>
             <p style={{ fontSize: 14, color: '#8a7b66', textAlign: 'center', marginBottom: 16, fontWeight: 500 }}>
               一次性購買，終身使用，含所有未來更新
             </p>
             <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' }}>
               <Button type="primary" size="large" onClick={() => setModalOpen(true)}>
-                立即獲取 — $10
+                立即獲取 — $50
               </Button>
               <Button type="default" size="large" onClick={() => {
                 document.getElementById('features')?.scrollIntoView({ behavior: 'smooth' })
@@ -216,13 +216,13 @@ export default function App() {
               fontSize: 24, fontWeight: 700, color: '#725d42',
               margin: '0 0 8px'
             }}>
-              首發特惠 — $10
+              首發特惠 — $50
             </h2>
             <p style={{
               fontSize: 14, color: '#8a7b66', marginBottom: 8, fontWeight: 500,
               textDecoration: 'line-through'
             }}>
-              原價 $49
+              原價 $199
             </p>
             <p style={{
               fontSize: 15, color: '#725d42', lineHeight: 1.7,
@@ -247,7 +247,7 @@ export default function App() {
           typewriter
           typeSpeed={60}
         >
-          <p><strong>價格：</strong>$10（首發特惠）</p>
+          <p><strong>價格：</strong>$50（首發特惠）</p>
           <p><strong>包含：</strong></p>
           <ul>
             <li>全套可填寫的 Notion / Obsidian / Logseq 模板</li>
